@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Manim rendering directories
+media/
+
+# Intermediate build outputs (re-generatable via render_and_build.py)
+_Code/*.wav
+_Code/video_silent_concat.mp4
+_Code/concat_list.txt
+
+# OS metadata
+.DS_Store
